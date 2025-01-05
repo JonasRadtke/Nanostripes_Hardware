@@ -1,0 +1,8 @@
+Nanostripes_LED_Modul\Nanostripes_LED_Modul-backups/
+jlcpcb/
+fp-info-cache
+*.xml
+*.log
+*.step
+*.x3d
+~*
