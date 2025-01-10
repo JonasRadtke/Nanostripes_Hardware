@@ -2163,7 +2163,7 @@
 		(path "/f2aa56bf-faf4-4628-8345-a3e1fccd143b/b8f69253-67d7-4d34-9211-eda6cd96c00b")
 		(sheetname "Controller")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -2643,7 +2643,7 @@
 		(path "/78e63f80-2ad1-4d90-b821-e0e24bbbf50d")
 		(sheetname "Stammblatt")
 		(sheetfile "Nanostripes_LED_Modul.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -4336,7 +4336,7 @@
 		(path "/79fbf3bf-04c6-47a3-a898-18e1b6745b75")
 		(sheetname "Stammblatt")
 		(sheetfile "Nanostripes_LED_Modul.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 6.41)
@@ -4614,7 +4614,7 @@
 		(path "/f2aa56bf-faf4-4628-8345-a3e1fccd143b/3ec3bf77-b005-4fa2-8208-9981debc4a94")
 		(sheetname "Controller")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -7674,7 +7674,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 -90)
+			(at 0 -2.33 90)
 			(layer "F.SilkS")
 			(uuid "e5254efb-25dc-42fb-83d9-2727d356f4e3")
 			(effects
@@ -7685,7 +7685,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0 4.87 -90)
+			(at 0 4.87 90)
 			(layer "F.Fab")
 			(uuid "a1e12c51-6145-4401-9ea0-f0f030b43b20")
 			(effects
@@ -7738,7 +7738,7 @@
 		(path "/f2aa56bf-faf4-4628-8345-a3e1fccd143b/eba82c97-514a-4a3f-98a5-d748f986a035")
 		(sheetname "Controller")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -8484,7 +8484,7 @@
 		(path "/f2aa56bf-faf4-4628-8345-a3e1fccd143b/45b4efe7-6550-458c-9710-5dc38701a7cf")
 		(sheetname "Controller")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -8964,7 +8964,7 @@
 		(path "/8b1ad921-f572-4d8a-bd25-b709a76fbc9e")
 		(sheetname "Stammblatt")
 		(sheetfile "Nanostripes_LED_Modul.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -9220,7 +9220,7 @@
 		(path "/afd60605-901e-45fb-a09a-e4b16133a2a6")
 		(sheetname "Stammblatt")
 		(sheetfile "Nanostripes_LED_Modul.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -24763,6 +24763,18 @@
 		(layer "User.1")
 		(uuid "f1e1993f-16c5-45df-98e1-0125a11852b7")
 	)
+	(gr_text "E1"
+		(at 53 78 0)
+		(layer "F.SilkS")
+		(uuid "557e0a5f-1916-4a4c-a619-7c041c87fb0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SWDIO\nSWCLK"
 		(at 143.75 84.75 90)
 		(layer "F.SilkS")
@@ -24848,20 +24860,28 @@
 		(uuid "43ff0ff0-1e81-4fef-ae96-836d53ec237a")
 	)
 	(segment
-		(start 137.5 79.2)
-		(end 138.2 78.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "5aad5b82-7033-4cc7-945d-3f36d49f60c9")
-	)
-	(segment
 		(start 252.7 86.25)
 		(end 253.25 85.7)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "78723b95-5e81-4497-8ee5-01b1b86b8227")
+	)
+	(segment
+		(start 138.2 79.55)
+		(end 138.2 78.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "85735eb1-cddc-4aae-a965-a8617edaed25")
+	)
+	(segment
+		(start 62.25 82.95)
+		(end 61.3 82)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "adf70b55-582a-43e6-a18d-971d029067a1")
 	)
 	(segment
 		(start 319.5 82.5)
@@ -24872,12 +24892,20 @@
 		(uuid "b20c268e-a2f1-443f-9e1e-cc4a2da0a261")
 	)
 	(segment
-		(start 137.5 81.0625)
-		(end 137.5 79.2)
+		(start 61.3 82)
+		(end 60.75 82)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "e7ada3f7-d2d1-42aa-9b80-4b208dfa63f7")
+		(uuid "be6adb0f-0445-4c3b-ad98-aea4e232a035")
+	)
+	(segment
+		(start 137.5 80.25)
+		(end 138.2 79.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "eb7993e4-1d63-4cff-af13-7519627b9083")
 	)
 	(segment
 		(start 253.25 85.7)
@@ -24886,6 +24914,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "ec1e5ddd-fc8b-4efe-864b-b8c066089e39")
+	)
+	(segment
+		(start 137.5 81.0625)
+		(end 137.5 80.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "ed6b4eb2-2b60-44ef-bf5e-f4875c5f01dd")
 	)
 	(segment
 		(start 250 86)
@@ -30370,7 +30406,7 @@
 		)
 		(polygon
 			(pts
-				(xy 40 70) (xy 330 70) (xy 330 95) (xy 40 95)
+				(xy 48 75) (xy 323 75) (xy 323 90) (xy 48 90)
 			)
 		)
 		(filled_polygon
@@ -31777,7 +31813,7 @@
 		)
 		(polygon
 			(pts
-				(xy 40 70) (xy 330 70) (xy 330 95) (xy 40 95)
+				(xy 48 75) (xy 323 75) (xy 323 90) (xy 48 90)
 			)
 		)
 		(filled_polygon

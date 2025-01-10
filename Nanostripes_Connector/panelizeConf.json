@@ -1,0 +1,21 @@
+{
+    "layout": {
+        "alternation": "rows",
+        "hspace": "3mm",
+        "vspace": "3mm",
+        "rows": "2",
+        "cols": "3"
+    },
+    "tabs": {
+        "spacing": "30mm"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "frame"
+    },
+    "post": {
+        "millradius": "1mm"
+    }
+}
