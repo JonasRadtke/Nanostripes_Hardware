@@ -299,7 +299,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "81f5e9ce-06cd-489f-95dd-01e1e12121ca")
@@ -991,7 +991,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "659b0a6c-0ef4-40b3-8bb6-1f12cdac6f65")
@@ -1683,7 +1683,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "7562c3c8-8464-41ff-8f6b-306878034f81")
@@ -2163,7 +2163,7 @@
 		(path "/f2aa56bf-faf4-4628-8345-a3e1fccd143b/b8f69253-67d7-4d34-9211-eda6cd96c00b")
 		(sheetname "Controller")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -2643,7 +2643,7 @@
 		(path "/78e63f80-2ad1-4d90-b821-e0e24bbbf50d")
 		(sheetname "Stammblatt")
 		(sheetfile "Nanostripes_LED_Modul.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -2845,7 +2845,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "f88bb3e8-ecdc-4593-834c-13c9c0e2b074")
@@ -4336,7 +4336,7 @@
 		(path "/79fbf3bf-04c6-47a3-a898-18e1b6745b75")
 		(sheetname "Stammblatt")
 		(sheetfile "Nanostripes_LED_Modul.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 6.41)
@@ -4614,7 +4614,7 @@
 		(path "/f2aa56bf-faf4-4628-8345-a3e1fccd143b/3ec3bf77-b005-4fa2-8208-9981debc4a94")
 		(sheetname "Controller")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -6619,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "5b4c2d6c-5b36-4531-aa47-9c71cf69e9a8")
@@ -7738,7 +7738,7 @@
 		(path "/f2aa56bf-faf4-4628-8345-a3e1fccd143b/eba82c97-514a-4a3f-98a5-d748f986a035")
 		(sheetname "Controller")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -7951,7 +7951,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "5b685649-7ce1-48e9-8f19-dda6109d61c6")
@@ -8484,7 +8484,7 @@
 		(path "/f2aa56bf-faf4-4628-8345-a3e1fccd143b/45b4efe7-6550-458c-9710-5dc38701a7cf")
 		(sheetname "Controller")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -8697,7 +8697,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "78e625a2-d05a-4c55-8787-67b47e2ea414")
@@ -8964,7 +8964,7 @@
 		(path "/8b1ad921-f572-4d8a-bd25-b709a76fbc9e")
 		(sheetname "Stammblatt")
 		(sheetfile "Nanostripes_LED_Modul.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -9220,7 +9220,7 @@
 		(path "/afd60605-901e-45fb-a09a-e4b16133a2a6")
 		(sheetname "Stammblatt")
 		(sheetfile "Nanostripes_LED_Modul.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -9444,7 +9444,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "3bbd8bc3-3791-42a3-a414-f5e27a96896a")

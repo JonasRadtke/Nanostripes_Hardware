@@ -1114,7 +1114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120R"
 			(at 27.94 39.3699 0)
 			(effects
 				(font
@@ -1184,7 +1184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,47u"
+		(property "Value" "0,47uF"
 			(at 68.58 52.0699 0)
 			(effects
 				(font
@@ -1457,7 +1457,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 29.21 52.0699 0)
 			(effects
 				(font
